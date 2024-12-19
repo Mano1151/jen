@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         DOCKER_IMAGE = 'sample-app'
-        DOCKER_REGISTRY = 'your-dockerhub-username/sample-app'
+        DOCKER_REGISTRY = 'mano2005/sample-app'
         CLOUD_BUCKET = 's3://your-bucket-name'
     }
 
